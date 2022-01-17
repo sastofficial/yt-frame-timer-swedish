@@ -1,6 +1,10 @@
 Tar start och slut platser i en youtube video, ner till bildrutorna, och ger tid mellan dem i formatet
 Bildfrekvens
-Högerklicka Youtube videon och välj "statistik för nördar." Den tredje linjen är "Current/Optimal Res"
+Högerklicka Youtube videon och välj "statistik för nördar." Den tredje linjen är "Current / Optimal Res" - hitta dem
+två nummerna efter @ och skriv dem för bildfrkvensen.
 <a
         href="https://github.com/slashinfty/yt-frame-timer">available</a>
 https://sastofficial.github.io/assets/img/stats-nerd.png        
+
+      Hitta startpunkten (du kan använda <code>,</code> och <code>.</code> tangenterna för att hitta den exacta bildrutan).
+      Högerklicka videon och välj “Kopiera Felsökningsinfomation” och klistra in för start bildrutan. Repetera för slut bildrutan.
