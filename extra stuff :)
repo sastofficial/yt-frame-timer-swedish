@@ -8,3 +8,10 @@ https://sastofficial.github.io/assets/img/stats-nerd.png
 
       Hitta startpunkten (du kan använda <code>,</code> och <code>.</code> tangenterna för att hitta den exacta bildrutan).
       Högerklicka videon och välj “Kopiera Felsökningsinfomation” och klistra in för start bildrutan. Repetera för slut bildrutan.
+
+
+Mod medelandet har blivigt kopierad till urklipp! Klistra in den i kommentarena av speedrunnen som du verifierar.
+
+Mod Medelande: Tiden startar ${parseFloat(startFrame).toFixed(3)} och slutar ${parseFloat(endFrame).toFixed(3)} med ${frameRate} fps. Du har tiden ${finalTime}.
+
+Ti [yt-frame-timer](https://slashinfty.github.io/yt-frame-timer)
