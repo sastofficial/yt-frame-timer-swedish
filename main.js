@@ -38,7 +38,7 @@ function compute() {
 
     // Show the time and mod message in the DOM
     let finalTime = hours.toString() + 'h ' + minutes.toString() + 'm ' + seconds.toString() + 's ' + milliseconds.toString() + 'ms';
-    let modMessage = `Mod Message: Time starts at ${parseFloat(startFrame).toFixed(3)} and ends at ${parseFloat(endFrame).toFixed(3)} at ${frameRate} fps to get a final time of ${finalTime}.`;
+    let modMessage = `Mod Medelande: Tiden startar ${parseFloat(startFrame).toFixed(3)} och slutar ${parseFloat(endFrame).toFixed(3)} med ${frameRate} fps. Du har tiden ${finalTime}.`;
     let credits = `Retimed using [yt-frame-timer](https://slashinfty.github.io/yt-frame-timer)`;
     document.getElementById('time').value = finalTime;
     document.getElementById('modMessage').disabled = false;
@@ -52,7 +52,7 @@ function copyModMessage() {
 	textArea.focus();
 	textArea.select();
 	document.execCommand('copy');
-	alert(`The mod message has been copied to clipboard! Please paste it into the comment of the run you are verifying.`);
+	alert(`Mod medelandet har blivigt kopierad till urklipp! Klistra in den i kommentarena av speedrunnen som du verifierar.`);
 }
 
 const validateFPS = (event) => {
